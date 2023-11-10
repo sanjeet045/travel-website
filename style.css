@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    line-height: 60px;
+    /* background-color: pink; */
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.nav-logo img {
+    vertical-align: middle;
+    width: 60%;
+    margin-left: 2rem;
+}
+
+.nav-menu {
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-form {
+    display: flex;
+    gap: 5rem;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: black;
+}
+
+.signup {
+    background-color: #faa935;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-top: -10rem;
+}
+
+.hero-content h3 {
+    background-color: #faa935;
+    border-radius: 20px;
+    padding: 0 3rem;
+    font-family: 'Island Moments', cursive;
+
+}
+
+.hero-content img {
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+.hero-text {
+    width: 40%;
+    margin: 10rem 10rem 0 -15rem;
+}
+.hero-text span{
+    color: #faa935;
+}
+
+.hero-image {
+    width: 16.66666667%;
+
+}
+
+.box1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+}
+
+.hero-image img,
+video {
+    border: 2px solid #faa935;
+    border-radius: 20px;
+    height: 350px;
+    object-fit: cover;
+    width: 80%;
+}
+
+.vid-1 {
+    margin-top: 2rem;
+}
+
+.img-3 {
+    margin-top: 4rem;
+}
+
+.search-bar {
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 0 48px 100px 0 rgba(17, 12, 46, .15);
+    margin-top: 50px;
+    margin-left: 1.5rem;
+    padding: 1rem 1rem;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-input {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.location-icon {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.first-input input {
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+/* section 2 */
+.section-2 {
+    padding-top: 70px;
+    margin-left: 1.5rem;
+    max-width: 100%;
+}
+.box2-text h5{
+    font-family: 'Island Moments', cursive;
+    font-size: 2rem;
+    color: #ee6e6e;
+}
+
+.box2-container {
+    display: flex;
+    margin-top: 2rem;
+    max-width: 95%;
+}
+
+.box2-container img {
+    background-color: #faa935;
+    height: 40px;
+    border-radius: 50px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.container-items {
+    border-bottom: 1px solid #faa935;
+    border-right: 1px solid #faa935;
+    padding-right: 6rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+/* book section */
+.explore-text {
+    max-width: 100%;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: block;
+    /* border: 2px solid blue; */
+}
+.explore-text h3{
+    background: #faa935;
+    display: inline;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-family: 'Island Moments', cursive;
+    font-size: 2rem;
+}
+
+.Explore-items {
+    /* border: 2px solid red; */
+    max-width: 100%;
+    padding: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.card-img img {
+    border: 2px solid orange;
+    width: 100%;
+}
+
+.booking-section {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+.card-top i {
+    font-size: .5rem;
+    color: #faa935;
+}
+
+.card-top i span {
+    color: black;
+    font-size: 0.5rem;
+}
+
+.loction-name {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+.location-pricing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.location-pricing span{
+    color: black;
+}
+.location-pricing h5 {
+    color: #faa935;
+    display: inline;
+}
+
+.location-pricing button {
+    background-color: #faa935;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-left: 120px; */
+    border: none;
+}
+
+/* experience section */
+
+.left-section {
+    width: 40%;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+
+.exp-content {
+    margin-bottom: 1rem;
+}
+
+.exp-content h3 {
+    background: #faa935;
+    display: inline;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-family: 'Island Moments', cursive;
+    font-size: 2rem;
+}
+.exp-content h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.exp-rating {
+    display: flex;
+    gap: 40px;
+    margin: 2rem;
+}
+
+.exp-rating span {
+    color: white;
+    background-color: #ff7e01;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 10px 5px 10px 5px;
+    font-weight: 700;
+}
+
+.right-section-image img {
+    /* border: 2px solid blue; */
+    width: 60%;
+    margin: 0 0 0 200px;
+}
+
+.gallery {
+    margin-left: 2rem;
+   
+}
+
+.image-collage {
+    display: flex;
+    flex-direction: row;
+    /* place-content: stretch center; */
+    box-sizing: border-box;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.collage-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 22%;
+    gap: 10px;
+    margin-left: 1.5rem;
+}
+
+/* feature blog */
+
+.feature-blog{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.blogs-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.blog-text-first{
+    padding: 1rem;
+}
+.blog-text-first span{
+   margin-right: 8rem;
+}
+.blog-text-first h5{
+    margin-top: 0.5rem;
+}
+
+.blog-text-third {
+    display: flex;
+    gap: 11rem;
+    margin-left: 1rem;  
+}
+.blog-text-third span{
+    color: #faa935;
+}
+.blog-text-third button{
+    background-color: #faa935;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    border: none;
+}
+.blog-card img{
+    width: 70%;
+    height: 200px;
+}
+
+/* testimonial */
+.testimonial{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+.slider-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.slider-box{
+    max-width: 80%;
+    margin-top: 1.5rem;
+    
+}
+
+.slider-img{
+    display: flex;
+    margin-top: 1.5rem;
+    
+    
+}
+.slider-img img{
+    max-width: 15%;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+}
+
+/* contact form */
+
+.contact-form{
+    margin-left: 30%;
+    margin-top: 5rem;
+    max-width: 40%;
+}
+
+.info{
+    border: 1px solid black;
+    padding: 1rem; 
+    border-radius: 5px;
+}
+.form-content input{
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.form-main button{
+    background: #faa935;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: none;
+}
+/* newsletter */
+.newsletter{
+    background-color: skyblue;
+    margin: 3rem ;
+    display: flex;
+}
+.subscribe-left{
+    max-width: 40%;
+}
+.subscribe-content{
+    padding-left: 70px;
+    padding: 3rem;
+}
+.subscribe-form{
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.subscribe-form input{
+    border: none;  
+}
+
+.subscribe-form button{
+    background-color: #ff7e01;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.subscribe-right{
+    max-width: 40%;
+}
+.subscribe-img img{
+    width: 80%;
+    margin-left: 10rem;
+
+}
+footer{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.social-link a i{
+    padding-right: 30px;
+    padding-top: 10px;
+    color: black;
+}
+.footer-box{
+    width: 100%;
+}
+.footer-box .logo img{
+    width: 50%;
+}
+.footer-box ul{
+    line-height: 2rem;
+    list-style: none;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 5rem;
+}
