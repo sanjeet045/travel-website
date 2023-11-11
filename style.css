@@ -63,47 +63,59 @@ header {
     border-radius: 20px;
     border: none;
 }
+/* hero section */
+.hero {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 1500px;
+    display: flex;
 
-.hero-content {
+}
+
+.hero-left {
+    /* border: 2px solid blue; */
+    width: 50%;
+    margin-left: 3rem;
+
+}
+
+.hero-heading {
     display: flex;
     align-items: center;
-    margin-left: 1.5rem;
-    margin-top: -10rem;
+    margin-top: 4rem;
+    
 }
-
-.hero-content h3 {
+.hero-heading h3{
     background-color: #faa935;
-    border-radius: 20px;
-    padding: 0 3rem;
+    border-radius: 15px;
+    padding: 0 5px;
     font-family: 'Island Moments', cursive;
-
+    font-size: 1.5rem;
 }
 
-.hero-content img {
-    height: 2rem;
-    margin-left: 2rem;
+.hero-left p{
+    line-height: 30px;
 }
 
-.hero-text {
-    width: 40%;
-    margin: 10rem 10rem 0 -15rem;
-}
-.hero-text span{
+.hero-left h1 span{
     color: #faa935;
+    
+}
+.hero-left h1{
+    font-size: 2.2rem;
 }
 
-.hero-image {
-    width: 16.66666667%;
-
+.hero-heading img {
+    max-width: 5%;
 }
 
-.box1 {
+.hero-right {
+    /* border: 2px solid green; */
+    height: 500px;
+    width: 50%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    width: 100%;
+    margin-right: 3rem;
+
 }
 
 .hero-image img,
@@ -112,15 +124,18 @@ video {
     border-radius: 20px;
     height: 350px;
     object-fit: cover;
-    width: 80%;
+    max-width: 80%;
 }
 
-.vid-1 {
+.hero-image {
+    width: 40%;
     margin-top: 2rem;
 }
-
-.img-3 {
+.vid-1{
     margin-top: 4rem;
+}
+.img-3{
+    margin-top: 6rem;
 }
 
 .search-bar {
